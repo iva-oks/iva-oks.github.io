@@ -1,0 +1,38 @@
+@import "common.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  background: #5d3587;
+  height: 12%;
+}
+
+main {
+  height: 76%;
+  display: flex;
+}
+
+.left,
+.right {
+  padding: 24px;
+  flex-basis: 50%;
+  height: 100%;
+}
+
+.left {
+  background: #ffd1e3;
+}
+
+.right {
+  background: #a367b1;
+}
+
+footer {
+  text-align: center;
+  background: #5d3587;
+  height: 12%;
+}

@@ -1,0 +1,34 @@
+@import "common.css";
+
+header {
+  text-align: center;
+  background: #5d3587;
+  height: 12%;
+}
+
+main {
+  height: 76%;
+}
+
+.left,
+.right {
+  padding: 24px;
+  width: 50%;
+  height: 100%;
+}
+
+.left {
+  float: left;
+  background: #ffd1e3;
+}
+
+.right {
+  float: right;
+  background: #a367b1;
+}
+
+footer {
+  text-align: center;
+  background: #5d3587;
+  height: 12%;
+}
